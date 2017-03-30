@@ -1,0 +1,35 @@
+$color1: #F1511B;
+$color2: #80CC28;
+$color3: #00ADEF;
+$color4: #FBBC09;
+
+.logo{
+	div{
+		float: left;
+		height: 100px;
+		width: 100px;
+		margin: 2.5px;
+		&:first-child{
+			background: $color1;
+		}
+
+		&:nth-child(2){
+			background: $color2;
+		}
+
+		&:nth-child(3){
+			background: $color3;
+			clear: both;
+		}
+
+		&:nth-child(4){
+			background: $color4;
+		}
+	}
+
+	h2{
+		color: #737373;
+		font-size: 200px;
+		margin-left: 250px;
+	}
+}

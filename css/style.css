@@ -1,0 +1,20 @@
+.logo div {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 2.5px; }
+  .logo div:first-child {
+    background: #F1511B; }
+  .logo div:nth-child(2) {
+    background: #80CC28; }
+  .logo div:nth-child(3) {
+    background: #00ADEF;
+    clear: both; }
+  .logo div:nth-child(4) {
+    background: #FBBC09; }
+.logo h2 {
+  color: #737373;
+  font-size: 200px;
+  margin-left: 250px; }
+
+/*# sourceMappingURL=style.css.map */
